@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/drag-and-drop-ollyo/static/css/main.073c9b0a.css",
+    "main.js": "/drag-and-drop-ollyo/static/js/main.0b52d673.js",
+    "static/js/787.1b9d6ffd.chunk.js": "/drag-and-drop-ollyo/static/js/787.1b9d6ffd.chunk.js",
+    "index.html": "/drag-and-drop-ollyo/index.html",
+    "main.073c9b0a.css.map": "/drag-and-drop-ollyo/static/css/main.073c9b0a.css.map",
+    "main.0b52d673.js.map": "/drag-and-drop-ollyo/static/js/main.0b52d673.js.map",
+    "787.1b9d6ffd.chunk.js.map": "/drag-and-drop-ollyo/static/js/787.1b9d6ffd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.0b52d673.js"
+  ]
+}
