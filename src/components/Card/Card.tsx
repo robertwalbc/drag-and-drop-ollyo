@@ -1,4 +1,4 @@
-import React, { DragEvent, DragEventHandler, ChangeEventHandler } from 'react';
+import React, { DragEvent, DragEventHandler } from 'react';
 import { CheckDiv } from './Card.styles';
 import Checkbox from '../Checkbox/Checkbox';
 

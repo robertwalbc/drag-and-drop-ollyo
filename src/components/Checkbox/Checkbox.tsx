@@ -3,6 +3,7 @@ import CheckboxWrapper from './Checkbox.styles';
 
 interface CheckboxProps {
     hasSelectedImage: boolean;
+    // eslint-disable-next-line no-unused-vars
     handleSelectImage:  (index: number) => void;
 }
 function Checkbox({ hasSelectedImage, handleSelectImage }: CheckboxProps) {
