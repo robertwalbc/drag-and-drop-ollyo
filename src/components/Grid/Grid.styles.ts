@@ -76,8 +76,8 @@ export const UploadLabel = styled.label`
     padding-right: 100%;
     padding-left: 100%;
     padding-top: 50%;
-    background-color: #007bff;
-    color: white;
+    background-color: #EEEEEE;
+    color: black;
     border-radius: 5px;
     width: 100%;
     height: 100%;
