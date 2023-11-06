@@ -17,7 +17,6 @@ export const GridContainer = styled.div`
 export const GridItem = styled.div<GridItemProps>`
     width: 100%;
     height: 100%;
-
     border: 1px solid #333;
     border-radius: 5px;
     overflow: hidden;
@@ -64,23 +63,31 @@ export const GridItem = styled.div<GridItemProps>`
     `;
 
 export const UploadInput = styled.input`
+    width: 100%; 
+    height: 100%; 
+    &[type='file'] {
+        opacity: 0;
+        position: absolute;
+        z-index: -1;
+    }
+    `;
+
+export const UploadLabel = styled.label`
+    padding-right: 100%;
+    padding-left: 100%;
+    padding-top: 50%;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
     width: 100%;
     height: 100%;
     cursor: pointer;
-    `;
+`;
 
 export const InputContainer = styled.div`
     width: 100%;
     height: 100%; 
-    backgroundColor: white; 
-    justifyContent: center; 
-    alignItems: center; 
     display: flex;
-`;
-
-export const InputDiv = styled.input`
-    backgroundColor: grey; 
-    justifyContent: center; 
-    alignItems: center; 
-    display: flex;
+    justify-content: center;
+    align-items: center;
 `;
